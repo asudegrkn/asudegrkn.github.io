@@ -35,6 +35,7 @@ let box = document.getElementById("sayi");
 box.addEventListener("keyup", function(event) {
     if (event.keyCode === 13 || event.keyCode === 'Enter') {
         Tahmin();
+      box.value="";
     }
 });
 
@@ -83,7 +84,7 @@ sonuc.innerHTML += sayi.value + " : ";
   sonuc.innerHTML += mesaj;
   sonuc.innerHTML += "<br>";
   
-
+box.value="";
 
   
 
