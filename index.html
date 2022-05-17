@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tahmin oyunu</title>
+  <style>
+    .neonText {
+      color: rgb(0, 0, 0);
+      text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    }
+
+    div {
+
+      width: 600px;
+      height: 400px;
+      padding: 20px;
+      background-color: rgb(1, 70, 10);
+      border: 22px solid rgb(255, 255, 255);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -300px;
+      margin-top: -150px;
+
+      border: 0.2rem solid #fff;
+      border-radius: 2rem;
+      padding: 0.4em;
+      box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #13fe6d,
+        0 0 0.8rem #13feb8,
+        0 0 2.8rem #00f8f8,
+        inset 0 0 1.3rem #0ee220;
+    }
+
+
+    body {
+      background:url("rain.jpg") no-repeat center center fixed ; 
+    
+    background-size: 2000px;
+
+    }
+
+    p {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 300;
+color:#fff;
+    }
+
+   
+
+    input,
+    button {
+      padding: 30px;
+      text-align: center;
+      display: block;
+      margin: auto;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="sayiTahmin">
+    <!-- <input type="text" id="sayi" /> -->
+    <input type="button" id="baslat" value="Oyunu Başlat" />
+    <input type="button" id="tahmin" value="Tahmin Et" disabled />
+    <input type="text" onfocus="this.value=''" id="sayi"/>
+    <p id="sonuc">Sonuç:</p>
+    
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
