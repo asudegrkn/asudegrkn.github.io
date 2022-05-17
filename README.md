@@ -11,7 +11,7 @@
 
 ___
 
-Oyunun amacı 3 basamaklı random sayıyı tahmin etmektir. Tahmin ettiğiniz sayının hangi basamağı doğruysa mesaj kutusu çıkarak size bildirir. 3 defa tahmin hakkınız bulunmaktadır. Tahmin hakkınız doğru cevabı bilemeden dolarsa oyun sonlanır. 
+Oyunun amacı 4 basamaklı random sayıyı tahmin etmektir. 5 defa tahmin hakkınız bulunmaktadır. Tahmin hakkınız doğru cevabı bilemeden dolarsa oyun sonlanır. 
 
 ___
 
